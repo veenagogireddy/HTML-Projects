@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+/*
+   
+   Style Sheet for Grids used in the Mountain Wheels website
+   Author: Veena Gogireddy
+   Date: 02/01/2019
+   
+   Filename: mwStyles.css
+
+*/
+/* Structural Styles */
+
+html 
+{
+    background-color: rgb(173, 189, 227);
+}
+
+body 
+{
+    background-color: rgb(227, 210, 173);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+footer 
+{
+    background-color: rgb(208, 184, 109);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+address 
+{
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Heading Styles */
+
+h1 
+{
+    font-weight: normal;
+}
+
+h2 
+{
+    font-weight: normal;
+}
+
+/* Navigation Styles */
+
+nav > ul 
+{
+    list-style: none;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+nav a, nav a:visited 
+{
+    text-decoration: none;
+    color: rgb(43, 59, 125);
+}
+
+nav a:hover, nav a:active 
+{
+        color: rgb(212, 35, 35);
+}
+
+/* Article Styles */
+
+#tourSummary h1 
+{
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+}
+
+#tourSummary p 
+{
+    font-size: 1.1em;
+}
+
+#tourSummary > p:first-of-type:first-line 
+{
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+
+/* Aside Styles */
+
+#tourItinerary h1 
+{
+    font-size: 1.2em;
+}
+
+#tourItinerary h2 
+{
+    font-size: 0.9em;
+}
+
+#tourItinerary p 
+{
+    font-size: 0.8em;
+}
+
+#tourItinerary h2:nth-of-type(2n+1) 
+{
+    color: rgb(79,91,40);
+}
+
+#tourItinerary p:nth-of-type(2n+1) 
+{
+    color: rgb(79,91,40);
+}
+
+#tourItinerary h2:nth-of-type(2n+2) 
+{
+    color: rgb(81,95,175);
+}
+
+#tourItinerary p:nth-of-type(2n+2) 
+{
+    color: rgb(81,95,175);
+}
+
+/* Blockquote Styles */
+
+blockquote 
+{
+    background-color: rgb(173,189,227);
+    color: rgb(255,255,255);
+    opacity: 0.65;
+}
+
+blockquote p 
+{
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
