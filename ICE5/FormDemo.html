@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Forms Demo</title>
+</head>
+<body>
+    <form id="demo" name="demo" method="post" action="sdgfhsd">
+        <input name="fname" id="fname" type="text" maxlength="15" placeholder="first name" required autofocus pattern="^{a-zA-Z}+$" title="one or more letters" /><br /><br />
+        <input name="age" id="age" type="number" min="21" max="100" step="2" value="37" /><br /><br />
+        <input name="exp" id="exp" type="range" min="0" max="50" value="10" step="5" />50<br /><br />
+        <input name="admitdate" id="admitdate" type="date" placeholder="date admitted" /><br /><br />
+        <fieldset style="width:70%">
+            <legend>Location</legend>
+            <label for="dist">Distance</label>
+            <input name="location" id="dist" type="radio" value="D" checked />
+            <label for="camp">Campus</label>
+            <input name="location" id="camp" type="radio" value="C" />
+        </fieldset>
+        <br /><br />
+        <fieldset style="width:70%">
+            <legend>Courses</legend>
+            <label for="course1">600</label>
+            <input name="600" id="600" type="checkbox" value="A" checked /><br />
+            <label for="course2">601</label>
+            <input name="601" id="601" type="checkbox" value="B" /><br />
+            <label for="course3">605</label>
+            <input name="605" id="605" type="checkbox" value="C" checked />
+        </fieldset>
+        <br />
+        <select name="trails" style="font-size:0.9em" size="2">
+            <option value="arthurs">Arthur's Rock</option>
+            <option value="pikes">Pikes Peak</option>
+            <option value="cherry ">Cherry Creek</option>
+            <option selected value="devils">Devil's Backbone</option>
+            <option value="horsetooth">Horsetooth Rock</option>
+        </select><br /><br />
+        <textarea cols="50" rows="5" placeholder="comments"></textarea>
+        <br /><br />
+        <input name="submit" type="submit" value="submit" />
+    </form>
+</body>
+</html>
